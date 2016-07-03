@@ -1,0 +1,45 @@
+@media screen and (min-width: 1280px) {
+    body.bg-summer {
+        background: url(../img/autumn.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1280px) {
+    body.bg-summer {
+        background: url(../img/summer.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body.bg-summer {
+        background: url(../img/spring.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+.margin160-top {
+    margin-top: 10rem;
+}
+
+.margin80-left {
+    margin-left: 5rem;
+}
+
+iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+#search-result {
+    position: absolute;
+    top: 3.125rem;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 2.15rem;
+    overflow: hidden;
+}
