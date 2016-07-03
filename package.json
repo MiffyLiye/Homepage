@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "description": "MiffyLiye's Homepage",
   "main": "index.html",
-  "dependencies": {
-    "metro-dist": "^3.0.15"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "metro-dist": "^3.0.15",
     "angular": "^1.5.7",
     "angular-route": "^1.5.7",
     "http-server": "^0.9.0",
@@ -28,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/MiffyLiye/Homepage/issues"
   },
-  "homepage": "https://github.com/MiffyLiye/Homepage#readme"
+  "homepage": "https://github.com/MiffyLiye/Homepage"
 }
